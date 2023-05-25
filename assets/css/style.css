@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.overlay {
+  position: relative;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.678);
+  width: 100%;
+  height: 100%;
+}
+
+.section1 {
+  background-image: url(https://preview.colorlib.com/theme/podca/images/hero_bg_1.jpg.webp);
+  height: 100vh;
+  background-position: 50% -25px;
+  background-size: cover;
+}
+.section1 .main .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+  gap: 10px;
+  position: relative;
+  z-index: 1000;
+}
+.section1 .main .center .first {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  position: relative;
+  z-index: 1000;
+}
+.section1 .main .center .third {
+  font-size: medium;
+  font-family: "Poppins", sans-serif;
+  color: grey;
+  position: relative;
+  z-index: 1000;
+}
+.section1 .main .center #bt {
+  background-color: orangered;
+  width: 250px;
+  height: 10vh;
+  border: 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1000;
+}
+.section1 .main .center #bt:hover {
+  bottom: 10px;
+  background-color: red;
+  transition: all 1s;
+}
+.section1 .main .one {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+.section1 .main .one .podca {
+  color: white;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  position: relative;
+  z-index: 1000;
+}
+.section1 .main .one .menu {
+  color: white;
+  font-weight: bold;
+  position: relative;
+  z-index: 1000;
+}
+
+.section2 .cards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  gap: 50px;
+}
+.section2 .cards .card {
+  margin: 0 10%;
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.section2 .cards .card #img {
+  width: 27%;
+}
+.section2 .cards .card .text #ep {
+  color: #f23a2e;
+  font-family: inherit;
+  font-size: xx-large;
+}
+.section2 .cards .card .text #by {
+  color: grey;
+  font-family: "Poppins", sans-serif;
+}
+.section2 .cards .card .text #lorem {
+  color: grey;
+  font-family: "Poppins", sans-serif;
+}
+.section2 .head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 15px;
+}
+.section2 .head .rec {
+  font-family: "Poppins", sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.section2 .buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+  margin-left: 40%;
+  gap: 10px;
+}
+.section2 .buttons .btn {
+  border-radius: 50%;
+  border: 1px solid rgb(189, 189, 189);
+  color: orangered;
+  width: 5%;
+  height: 7vh;
+  font-family: "Poppins", sans-serif;
+}
